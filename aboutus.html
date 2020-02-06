@@ -6,6 +6,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+      <!-- Additional CSS must be placed after Bootsrap CSS -->
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
+      <link rel="stylesheet" href="css/styles.css">
+
     <title>NuCamp: A Better Way To Camp</title>
 </head>
 
@@ -21,10 +29,31 @@
             </div> 
         </div>
     </header>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active "><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!-- NAV BAR -->
 
     <div class="container">
         <div class="row">
-            <div>
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item actiive"> About Us</li>
+                </ol>
                <h2>About Us</h2>
                <hr />
             </div>
@@ -78,6 +107,10 @@
            </div>
         </div>
     </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
