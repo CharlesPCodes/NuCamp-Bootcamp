@@ -35,3 +35,55 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container">
+                <div class="row row-content align-items-center">
+                    <div class="col-sm-5 mx-auto">
+                        <div class="card">
+                            <h3 class="card-header text-white bg-info">Reserve a Campsite</h3>
+                            <div class="card-body">
+                                <!-- FORM -->
+                                <form id="">
+                                    <!-- COL1 -->
+                                    <div class="row form-group">
+                                        <label for="" class="col-sm-6 col-form-label">Number of Campers</label>
+                                        <!-- SELECT OPTIONS -->
+                                        <select name="nuCampers" id="nuCampers" class="col" class="form-control">
+                                            <option value="">Select..</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                        </select>
+                                    </div>
+                                    <!-- COL2 -->
+                                    <div class="row form-group">
+                                        <label for="" class="col-sm-6 col-form-label">Date</label>
+                                        <div class="">
+                                            <input type="date" name="date" id="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- COL 3 -->
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="btn btn-primary" type="submit">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
